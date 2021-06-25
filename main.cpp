@@ -14,7 +14,7 @@
 int main()
 {
     //Create Dataset
-    const char* imagePath = "/home/zana/Documents/imrid/Machine_Learning/digits.png";
+    const char* imagePath = "digits.png";
     auto dataSet = createTrainData(imagePath);
     dataSet->setTrainTestSplitRatio(0.8,true);
 
